@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiaobo.utils.imageselector" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyAppTheme" >
+        <activity
+            android:name=".TestMainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ImageSelector.Activity.CatalogueActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ImageSelector.PictureImageActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ImageSelector.Activity.EditSelectedActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ImageSelector.Activity.TakeImagesActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ImageSelector.Activity.TakeOneImgActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dialog_back"
+    android:id="@+id/parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/image_btn_open_image"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/item_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="#ffffffff"
+                android:text="拍照"
+                android:textSize="15dp"
+                android:textColor="#959595"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e5e5e5"/>
+            <Button
+                android:id="@+id/item_Photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="#ffffffff"
+                android:text="相册选取"
+                android:textSize="15dp"
+                android:textColor="#959595"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/item_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/image_btn_open_image"
+            android:text="取消"
+            android:textSize="15dp"
+            android:textColor="#959595"/>
+    </LinearLayout>
+
+</RelativeLayout>
