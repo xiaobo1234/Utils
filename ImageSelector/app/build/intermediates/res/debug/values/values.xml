@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidWorkspaceAS/ImageSelector/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="background_all">#f7f7f7</color>
+    <color name="black">#000000</color>
+    <color name="dialog_back">#66666666</color>
+    <color name="divider_heavy">#ededed</color>
+    <color name="divider_title">#d7d7d7</color>
+    <color name="red_color">#d10717</color>
+    <color name="text_color">#535353</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/D:/AndroidWorkspaceAS/ImageSelector/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">ImageSelector</string>
+    <!-- From: file:/D:/AndroidWorkspaceAS/ImageSelector/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AnimAlpha" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/image_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/image_alpha_out</item>
+    </style>
+    <style name="DialogFullScreen">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimAlpha</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+    <style name="MyAppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.xiaobo.utils.imageselector.ImageSelector.View.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/item_image_grid_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/iv_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY" />
+
+</com.xiaobo.utils.imageselector.ImageSelector.View.SquareLayout><!-- From: file:/D:/AndroidWorkspaceAS/ImageSelector/app/src/main/res/layout/image_item_take_images.xml -->

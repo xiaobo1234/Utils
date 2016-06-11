@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidWorkspaceAS\ImageSelector\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="D:\AndroidWorkspaceAS\ImageSelector\app\build\intermediates\pre-dexed\debug\classes-626071b28ada7f3c09438bdbad48bc9377ec6a8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\windows\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\AndroidWorkspaceAS\ImageSelector\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-b8f46f746e9fa24f4c31599a7bef8244deee14f5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWorkspaceAS\ImageSelector\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="D:\AndroidWorkspaceAS\ImageSelector\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-66a44209e81fda42c0d34aebf81c0c12909986c0.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="D:\AndroidWorkspaceAS\ImageSelector\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-588d7c183bd2f5df76ff13e65abd232335d35981.jar" />
+    </item>
+
+</items>
